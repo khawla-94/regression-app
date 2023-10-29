@@ -1,5 +1,8 @@
 # regression-app
 
+![logo](https://github.com/khawla-94/regression-app/assets/80429328/fd0056b8-9cf2-4ced-9f6f-465a3d16af63)
+
+
 The project aims to answer the answer of how some variables/features can affect the change of property prices over a period of time. The dataset is an official record of all property sales in England and Wales by the HM Land Registry, responsible for administrating the real estate under the Open Government Licence v3.0.
 The dataset that will be used include 16 features are as follows:
 
