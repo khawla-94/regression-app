@@ -56,7 +56,10 @@ st.write(df)
 
 
 # Load your pre-trained model
-model = pickle.load(open("property_price_dt.pkl", "rb"))
+with open("property_price_dt.pkl", 'rb') as file:
+    model = pickle.load(file)
+
+#model = pickle.load(open("property_price_dt.pkl", "rb"))
 
 # Make predictions
 if st.sidebar.button('Predict Price'):
