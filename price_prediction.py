@@ -3,7 +3,7 @@ import pickle
 import pandas as pd
 
 # Load your pre-trained model
-model = pickle.load(open("property_price_lgbm_oct23.pkl", "rb"))
+model = pickle.load(open("property_price_dt.pkl", "rb"))
 
 # Create a Streamlit app
 
